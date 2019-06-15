@@ -19,15 +19,15 @@ Z[0] = 0
 
 Z[n+1] = Z[n]^2 + c
 
-Z[n] < 2
+ABS(Z[n]) < 2
 
 Where `Z` is a complex number, and `c` is a point on the complex plane.
 
 Note that Z[n]^2 means to "square" the number.
 Complex numbers square just like "normal" numbers: Z[n]^2 = Z[n] * Z[n].
 
-"Unbounded" means that no matter how large `n` becomes, Z[n] < 2.
-Put another way, Z[n] is "bounded" because it never gets to 2.
+"Unbounded" means that no matter how large `n` becomes, ABS(Z[n]) < 2.
+Put another way, ABS(Z[n]) is "bounded" because it never gets to 2.
 
 # Complex Numbers
 
