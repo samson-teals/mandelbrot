@@ -32,7 +32,6 @@ public class MandelbrotStarter extends ImageWrapper implements IterableImage {
         initPalette();
     }
 
-    // Using the values from the "Triangle" example here: http://paulbourke.net/fractals/lsys/
     public void iterate() {
         Point2D drawCoordinates = getDrawCoordinates(counter);
         Point2D plotCoordinates = getPlotCoordinates(drawCoordinates);
